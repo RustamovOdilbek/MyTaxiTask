@@ -50,6 +50,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
                 binding.mapView.getMapboxMap().setCamera(CameraOptions.Builder().zoom(20.0).build())
             }
         })
+        //dffds
     }
 
 
