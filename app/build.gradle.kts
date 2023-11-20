@@ -1,6 +1,9 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
+    id("androidx.navigation.safeargs")
+    id("dagger.hilt.android.plugin")
 }
 
 android {
@@ -52,11 +55,27 @@ dependencies {
     //viewBinding delegate
     implementation("com.github.kirich1409:viewbindingpropertydelegate-noreflection:1.5.8")
 
+    // Location Services
+    implementation("com.google.android.gms:play-services-location:21.0.1")
+
     // Navigation
     implementation("androidx.navigation:navigation-fragment-ktx:2.5.3")
     implementation("androidx.navigation:navigation-ui-ktx:2.5.3")
 
     //MapBox
     implementation("com.mapbox.maps:android:10.16.2")
+
+    // Hilt
+    implementation("com.google.dagger:hilt-android:2.42")
+    kapt("com.google.dagger:hilt-compiler:2.42")
+
+    // ViewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.0")
+    implementation("androidx.activity:activity-ktx:1.6.1")
+
+    // Room
+    implementation("androidx.room:room-runtime:2.5.0")
+    implementation("androidx.room:room-ktx:2.5.0")
+    kapt("androidx.room:room-compiler:2.5.0")
 
 }

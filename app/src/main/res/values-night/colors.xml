@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
-    <color name="white">#000000</color>
+    <color name="white">#FFFFFFFF</color>
 
     <color name="status_bar_color">#212121</color>
+    <color name="btn_back_color">#DFDFDF</color>
+    <color name="notifi_back_color">#EF2E2E</color>
+    <color name="text_color">#BEBEBE</color>
+    <color name="color_bottom_buttons">#1E1E1E</color>
+    <color name="bottom_button_start_color">#6C6C6C</color>
+    <color name="bottom_button_end_color">#BEBEBE</color>
+
 </resources>

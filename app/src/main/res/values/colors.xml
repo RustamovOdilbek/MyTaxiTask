@@ -4,4 +4,12 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="status_bar_color">#212121</color>
+    <color name="green">#00CA4C</color>
+    <color name="btn_back_color">#FFFFFF</color>
+    <color name="notifi_back_color">#EF2E2E</color>
+    <color name="text_color">#1E1E1E</color>
+    <color name="color_bottom_buttons">#FFFFFF</color>
+    <color name="bottom_button_start_color">#212121</color>
+    <color name="bottom_button_end_color">#585858</color>
+
 </resources>
