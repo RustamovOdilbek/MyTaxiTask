@@ -105,7 +105,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
             .catch { e -> e.printStackTrace() }
             .onEach { location ->
                 Log.d("asddasd", "onViewCreated: ${location}")
-                //updateCamera(CurrentLocation(latitude = location.latitude, longitude = location.longitude))
+                updateCamera(CurrentLocation(latitude = location.latitude, longitude = location.longitude))
             }
             .launchIn(lifecycleScope)
 
