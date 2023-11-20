@@ -142,6 +142,10 @@ class MainFragment : Fragment(R.layout.fragment_main) {
             }
         }
 
+        /**
+         * gjdadaLCVavdjAV CJad cjA Ca jc
+         */
+
         binding.ivCurrentLocation.setOnClickListener {
             viewModel.getCurrentLocation()
         }
